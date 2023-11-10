@@ -1,16 +1,20 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Header */
+
 .header{
     background-color: #1F2937;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 }
 .logo-text{
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 16px;
 }
 .hlinks{
     list-style: none;
@@ -23,8 +27,57 @@ body{
     display: inline-block;
     margin-right: 16px;
 }
+
 .hlinktext{ 
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-} 
+}
+
+/* Upper Top */
+.upper-top{
+    height: 400px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.awesome{
+    height: 250px;
+    width: 390px;
+    text-align: left;
+}
+.image{
+    height: 250px;
+    width: 390px;
+}
+.awesome-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.awesome-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.btn{
+    margin-top: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #3882f6;
+    padding: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
+    cursor: pointer;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* Upper */

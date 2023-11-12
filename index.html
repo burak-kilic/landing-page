@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/styles.css">
@@ -14,9 +14,9 @@
     <div class="header">
         <h3 class="logo-text">Header Logo</h3>
         <ul class="hlinks">
-            <li class="hlink"><a href="" class="hlinktext">header link one</a></li>
-            <li class="hlink"><a href="" class="hlinktext">header link two</a></li>
-            <li class="hlink"><a href="" class="hlinktext">header link three</a></li>
+            <li class="hlink"><a href="#upper" class="hlinktext">header link one</a></li>
+            <li class="hlink"><a href="#lower-top" class="hlinktext">header link two</a></li>
+            <li class="hlink"><a href="#lower" class="hlinktext">header link three</a></li>
         </ul> 
     </div>
     <!-- Upper Top Section -->
@@ -31,7 +31,7 @@
         </div>
     </div>
     <!-- Upper Section -->
-    <div class="upper">
+    <div class="upper" id="upper">
         <h2 class="upper-text">Some random information.</h2>
         <div class="img-sect">
             <div class="upper-img">
@@ -54,7 +54,7 @@
     </div>
 
     <!-- Lower Top Section -->
-    <div class="lower-top">
+    <div class="lower-top" id="lower-top">
         <div class="quote-sect">
             <h2 class="quote">This is an inspiring quote, or a testimonia from a customer.
                 Maybe it's just filling up space, or maybe people will actually read it. 
@@ -65,5 +65,21 @@
     </div>
     <div class="clear"></div>
 
+    <!-- Lower Section -->
+    <div class="lower" id="lower">
+        <div class="call-sect">
+            <div class="text">
+                <p class="call-title">Call to action! It's time!</p>
+                <p class="call-text">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="btn-call">Sign up</button>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer-text">
+            <p>Copyright © Burak Kılıç 2023</p>
+        </div>
+    </div>
 </body>
 </html>

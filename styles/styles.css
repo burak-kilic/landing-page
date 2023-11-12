@@ -74,10 +74,35 @@
     cursor: pointer;
 }
 img{
-    object-fit: cover;
+    object-fit:cover;
     height: 100%;
     width: 100%;
     position: relative;
 }
 
 /* Upper */
+.upper{
+    padding: 16px;
+    height: 400px;
+
+}
+.upper-text{
+    text-align: center;
+}
+.upper-img,.upper-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+}
+.img-sect{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 32px;
+
+}
+.img-subtext{
+    font-size: 18px;
+}

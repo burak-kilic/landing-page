@@ -103,6 +103,34 @@ img{
     gap: 32px;
 
 }
-.img-subtext{
-    font-size: 18px;
+/* Lower Top */
+
+.lower-top{
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote-sect{
+    height: 150px;
+    width: 700px;
+}
+
+.quote-sect p{
+    float: right;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-right: 32px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.clear{
+    clear: both;
 }

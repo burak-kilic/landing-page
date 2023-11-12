@@ -9,7 +9,8 @@
 .header{
     background-color: #1F2937;
     display:flex;
-    justify-content: space-around;
+    gap:25rem;
+    justify-content: center;
     align-content: center;
 }
 .logo-text{
@@ -44,13 +45,13 @@
     flex: 1;
 }
 .awesome{
-    height: 250px;
-    width: 390px;
+    height: 15.625rem;
+    width: 30rem;
     text-align: left;
 }
 .image{
-    height: 250px;
-    width: 390px;
+    height: 15.625rem;
+    width: 30rem;
 }
 .awesome-title{
     font-size: 48px;
@@ -86,6 +87,7 @@ img{
 
 /* Upper */
 .upper{
+    margin-top: 16px;
     padding: 16px;
     height: 400px;
 
@@ -94,8 +96,8 @@ img{
     text-align: center;
 }
 .upper-img,.upper-img img{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 16px;
 }
 .img-sect{
